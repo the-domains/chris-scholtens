@@ -1,32 +1,44 @@
-name: Chris Scholtens
-favicon: null
-layout_spectrum: 1
-typography_spectrum: 0.76066
 title: Sigma Kappa Psi Mockup
+purpose:
+  - name: awareness
+    url: null
+    item: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+color:
+  saturation: 1
+  brandStrength: 1
+  lightness: 0
+  brandColors:
+    - '#59AF50'
+    - '#3E3E3E'
+    - '#FFFFFF'
+    - '#C5C5C5'
+    - '#8C8C8C'
+  rhythmicContrast: 1
 cta:
-  domain: null
   bucket: null
   version: null
+  domain: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
+favicon: null
+name: Chris Scholtens
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#000000'
-    - '#ffffff'
-    - '#fc7203'
-    - '#aaaaaa'
-    - '#694a2e'
-  brandStrength: 1
-  lightness: 0.5625
-  saturation: 0
-  rhythmicContrast: 1
-purpose:
-  - name: awareness
-    item: null
-    url: null
+typography_spectrum: 0.1786381
+layout_spectrum: 0.08255597
